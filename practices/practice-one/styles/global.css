@@ -1,0 +1,89 @@
+
+/* SET FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url("../fonts");
+  src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS VARIABLES */
+:root {
+    --primary-font: 'Circular Std';
+    --secondary-font: 'Inter';
+    --primary-color: #5D50C6;
+    --secondary-color: #F85E9F;
+    --background: #FFF;
+}
+
+  /* GLOBAL ELEMENTS */
+p {
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    font-size: 18px;
+    font-family: 'Inter';
+    line-height: 160%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dark, #222831);
+}
+
+h1 {
+    color: #000;
+    font-size: 69px;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h2 {
+    color: var(--grey-scale-black, #191825);
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h3 {
+    color: var(--grey-scale-black, #191825);
+    font-size: 44px;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h6 {
+    color: var(--grey-scale-black, #191825);
+    font-size: 23px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+ 
