@@ -32,12 +32,16 @@
     gap: 64px;
 }
 
-.header-menu-list-li {
-    color: var(--dark, #222831);
+.header-menu li {
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
     font-size: 14px;
     font-family: 'Circular Std';
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+}
+
+.header-menu li:hover {
+    color: var(--dark, #222831);
 }
 
