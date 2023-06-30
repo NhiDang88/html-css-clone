@@ -1,0 +1,14 @@
+/* Button component */
+.btn {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #D9D9D9;
+    background: var(--white, #FFF);
+}
+
+.btn:hover {
+    background: var(--primary, #5D50C6);
+}
