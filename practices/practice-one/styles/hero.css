@@ -1,0 +1,99 @@
+.hero {
+    display: flex;
+    width: 1184px;
+    padding: 64px 0px;
+    align-items: center;
+}
+
+.hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 43px;
+    flex: 1 0 0;
+}
+
+.hero-top-content {
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07), 0px 34px 75px 0px rgba(0, 0, 0, 0.07), 0px 137px 137px 0px rgba(0, 0, 0, 0.06), 0px 308px 185px 0px rgba(0, 0, 0, 0.04), 0px 548px 219px 0px rgba(0, 0, 0, 0.01), 0px 856px 240px 0px rgba(0, 0, 0, 0.00);
+    color: var(--secondary, #F85E9F);
+    font-size: 14px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #000;
+    font-size: 69px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero .hero-banner {
+    width: 610px;
+    height: 638px;
+    flex-shrink: 0;
+}
+
+.hero-banner .hero-send {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--secondary, #F85E9F);
+    box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+}
+
+.hero-banner .hero-add {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--orange, #FF5722);
+    box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+}
+
+.hero-banner .hero-pic {
+    display: inline-flex;
+    align-items: center;
+    gap: 31px;
+}
+
+.hero-pic .hero-2pics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
