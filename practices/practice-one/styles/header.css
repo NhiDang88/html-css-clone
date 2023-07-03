@@ -26,13 +26,26 @@
     line-height: 40px;
 }
 
-.header-menu {
+.header-btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.header-list {
     display: flex;
     align-items: flex-start;
     gap: 64px;
 }
 
-.header-menu li {
+/* .header-test {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.header-list li a {
     color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
     font-size: 14px;
     font-family: 'Circular Std';
@@ -41,7 +54,11 @@
     line-height: 120%;
 }
 
-.header-menu li:hover {
+.header-list li a:hover {
+    color: var(--dark, #222831);
+}
+
+.header-list li a:active {
     color: var(--dark, #222831);
 }
 

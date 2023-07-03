@@ -19,6 +19,11 @@
     --background: #FFF;
 }
 
+/* class */
+a {
+  text-decoration: none;
+}
+
 
 
 
