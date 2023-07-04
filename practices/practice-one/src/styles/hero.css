@@ -12,6 +12,8 @@
     align-items: flex-start;
     gap: 43px;
     flex: 1 0 0;
+    width: 574px;
+    height: 548px;
 }
 
 .hero-top-content {
@@ -20,9 +22,9 @@
     align-items: center;
     gap: 16px;
     border-radius: 100px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07), 0px 34px 75px 0px rgba(0, 0, 0, 0.07), 0px 137px 137px 0px rgba(0, 0, 0, 0.06), 0px 308px 185px 0px rgba(0, 0, 0, 0.04), 0px 548px 219px 0px rgba(0, 0, 0, 0.01), 0px 856px 240px 0px rgba(0, 0, 0, 0.00);
-    color: var(--secondary, #F85E9F);
+    color: var(--secondary, #f85e9f);
     font-size: 14px;
     font-family: Circular Std;
     font-style: normal;
@@ -60,8 +62,18 @@
     gap: 16px;
 }
 
+.hero-demo-btn {
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--light, #eee);
+    background: var(--white, #fff);
+}
+
 .hero .hero-banner {
-    width: 610px;
+    width: 575px;
     height: 638px;
     flex-shrink: 0;
 }
@@ -72,8 +84,12 @@
     align-items: flex-start;
     gap: 8px;
     border-radius: 100px;
-    background: var(--secondary, #F85E9F);
+    background: var(--secondary, #f85e9f);
     box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+    position: relative;
+    left: auto;
+    right: 35px;
+    bottom: 370px;
 }
 
 .hero-banner .hero-add {
@@ -82,8 +98,11 @@
     align-items: flex-start;
     gap: 8px;
     border-radius: 100px;
-    background: var(--orange, #FF5722);
+    background: var(--orange, #ff5722);
     box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+    position: relative;
+    bottom: 60px;
+    left: 315px;
 }
 
 .hero-banner .hero-pic {

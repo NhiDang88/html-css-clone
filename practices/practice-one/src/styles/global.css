@@ -1,11 +1,10 @@
-
 /* SET FONT FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @font-face {
   font-family: 'Circular Std';
-  src: url("../fonts");
-  src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+  src: url("../assets/fonts");
+  src: url("../assets/fonts/circular-std-medium-500.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -14,30 +13,13 @@
 :root {
     --primary-font: 'Circular Std';
     --secondary-font: 'Inter';
-    --primary-color: #5D50C6;
-    --secondary-color: #F85E9F;
-    --background: #FFF;
+    --primary-color: #5d50c6;
+    --secondary-color: #f85e9f;
+    --background: #fff;
 }
 
-/* class */
+/* global class*/
+
 a {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-  
-
- 

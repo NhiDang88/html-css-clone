@@ -1,3 +1,5 @@
+/* header section */
+
 .header {
     display: flex;
     width: 1184px;
@@ -6,7 +8,7 @@
     align-items: center;
 }
 
-.header-logo {
+.header .header-logo {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -32,18 +34,15 @@
     gap: 10px;
 }
 
+.header__menu {
+    display: flex;
+  }
+
 .header-list {
     display: flex;
     align-items: flex-start;
     gap: 64px;
 }
-
-/* .header-test {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .header-list li a {
     color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));

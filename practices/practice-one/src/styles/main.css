@@ -1,6 +1,6 @@
 @import url(./reset.css);
 @import url(./global.css);
-@import url(./header.css);
 @import url(./components/button.css);
 @import url(./components/container.css);
+@import url(./header.css);
 @import url(./hero.css);
