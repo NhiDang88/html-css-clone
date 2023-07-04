@@ -51,7 +51,7 @@
 
 .services .services-box .box {
     display: flex;
-    /* height: 443px; */
+    height: 315px;
     padding: 64px;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@
 
 .services .services-box .box-border{
     display: flex;
-    /* height: 443px; */
+    height: 315px;
     padding: 64px;
     flex-direction: column;
     align-items: center;
