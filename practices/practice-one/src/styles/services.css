@@ -1,0 +1,110 @@
+
+.services {
+    display: flex;
+    width: 1536px;
+    padding: 64px 0px;
+    align-items: center;
+}
+
+.services .services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.services .services-content .content-name {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--secondary, #f85e9f);
+    font-size: 23px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+.services .services-content .content-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black, #191825);
+    /* H3 */
+    font-size: 44px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.services .services-box {
+    display: flex;
+    width: 1092px;
+    align-items: flex-start;
+    gap: 21px;
+    flex-shrink: 0;
+}
+
+.services .services-box .box {
+    display: flex;
+    /* height: 443px; */
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    flex: 1 0 0;
+    border-radius: 32px;
+    border: 1px solid rgba(25, 24, 37, 0.10);
+    background: #fff;
+}
+
+.services .services-box .box-border{
+    display: flex;
+    /* height: 443px; */
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    flex: 1 0 0;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 41px 89px 0px rgba(0, 0, 0, 0.10);
+}
+
+.services .services-box .box-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.services .services-box .box-inside .box-title {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black, #191825);
+    text-align: center;
+    font-size: 28px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.services .services-box .box-inside .box-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
