@@ -33,7 +33,6 @@
     flex-direction: column;
     align-self: stretch;
     color: var(--grey-scale-black, #191825);
-    /* H3 */
     font-size: 44px;
     font-family: 'Circular Std';
     font-style: normal;
@@ -47,11 +46,13 @@
     align-items: flex-start;
     gap: 21px;
     flex-shrink: 0;
+    overflow-x: auto;
 }
 
 .services .services-box .box {
     display: flex;
     height: 315px;
+    width: 222px;
     padding: 64px;
     flex-direction: column;
     align-items: center;
@@ -62,9 +63,10 @@
     background: #fff;
 }
 
-.services .services-box .box-border{
+.services .services-box .box:hover{
     display: flex;
     height: 315px;
+    width: 222px;
     padding: 64px;
     flex-direction: column;
     align-items: center;
@@ -90,7 +92,7 @@
     color: var(--grey-scale-black, #191825);
     text-align: center;
     font-size: 28px;
-    font-family: Circular Std;
+    font-family: 'Circular Std';
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -103,7 +105,7 @@
     color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
     text-align: center;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
