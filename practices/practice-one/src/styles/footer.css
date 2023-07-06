@@ -1,0 +1,108 @@
+
+.footer {
+    display: flex;
+    width: 1184px;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 64px;
+    margin-bottom: 27px;
+}
+
+.footer .footer-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+.footer .footer-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer .footer-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .footer-logo-text {
+    color: var(--black, #191825);
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.footer .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 160%;
+    width: 561px;
+}
+
+.footer .footer-social {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.footer .footer-frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.footer .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.footer .footer-list-title {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black, #191825);
+
+    /* H6 */
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
+
+    /* Body */
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
