@@ -83,8 +83,6 @@
     flex-direction: column;
     align-self: stretch;
     color: var(--grey-scale-black, #191825);
-
-    /* H6 */
     font-family: var(--primary-font);
     font-size: 23px;
     font-style: normal;
@@ -97,8 +95,6 @@
     flex-direction: column;
     align-self: stretch;
     color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
-
-    /* Body */
     font-family: var(--secondary-font);
     font-size: 18px;
     font-style: normal;
