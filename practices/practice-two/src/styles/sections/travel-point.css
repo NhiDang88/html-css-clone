@@ -1,0 +1,123 @@
+
+.travel-point {
+    display: flex;
+    width: 1184px;
+    padding: 64px 0px;
+    align-items: flex-end;
+    gap: 70px;
+}
+
+.travel-point .travel-point-img {
+    width: 522px;
+    height: 697px;
+    flex-shrink: 0;
+    border-radius: 40px;
+}
+
+.travel-point .travel-point-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+.travel-point .travel-point-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.travel-point .travel-point-title-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.travel-point .travel-point-name {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(---secondary-color, #f85e9f);
+    font-size: 23px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+.travel-point .travel-point-title {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black, #191825);
+    font-size: 44px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    max-width: 80%;
+}
+
+.travel-point .travel-point-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.travel-point .travel-point-box-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.travel-point .travel-point-combo {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.travel-point .travel-point-item {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 32px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
+    background: var(--white, #fff);
+}
+
+.travel-point .travel-point-number {
+    color: var(--orange, #ff5722);
+    font-size: 35px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.travel-point .travel-point-detail {
+    color: var(--grey-scale-black, #191825);
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}

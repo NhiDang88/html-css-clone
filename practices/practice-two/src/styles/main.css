@@ -1,0 +1,14 @@
+@import url(./base/reset.css);
+@import url(./base/global.css);
+@import url(./components/button.css);
+@import url(./components/container.css);
+@import url(./sections/header.css);
+@import url(./sections/hero.css);
+@import url(./sections/brands.css);
+@import url(./sections/services.css);
+@import url(./sections/top-destination.css);
+@import url(./sections/travel-point.css);
+@import url(./sections/key-features.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/call-to-action.css);
+@import url(./sections/footer.css);

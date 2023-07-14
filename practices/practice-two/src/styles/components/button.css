@@ -1,0 +1,88 @@
+/* Main Button */
+
+.primary-btn {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--white, #fff);
+    color: var(--dark, #222831);
+    font-size: 14px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    transition: 0.5s linear;
+}
+
+/* cta button */
+
+.call-to-action-btn {
+    display: flex;
+    padding: 32px 64px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 32px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
+    background: var(--primary, #5d50c6);
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 23px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.call-to-action-btn:hover {
+    transition: 0.5s linear;
+    opacity: 0.8;
+}
+
+/* Arrow button */
+
+.arrow-left-btn {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
+    background-color: #fff;
+    background-image: url(../../assets/images/components/arrow-left-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.arrow-left-btn:hover {
+    background-color: #5d50c6;
+    border: none;
+    background-image: url(../../assets/images/components/arrow-left-2.png);
+    transition: 0.5s linear;
+}
+
+.arrow-right-btn {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
+    background-color: #5d50c6;
+    background-image: url(../../assets/images/components/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: no;
+    cursor: pointer;
+}
+
+.arrow-right-btn:hover {
+    transition: 0.5s linear;
+    opacity: 0.8;
+}

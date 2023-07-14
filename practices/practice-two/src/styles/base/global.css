@@ -1,0 +1,50 @@
+/* SET FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url("../../assets/fonts/circular-std-medium-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS VARIABLES */
+:root {
+    --primary-font: 'Circular Std';
+    --secondary-font: 'Inter';
+    --primary-color: #5d50c6;
+    --secondary-color: #f85e9f;
+    --background: #fff;
+}
+
+/* global class*/
+
+a {
+  text-decoration: none;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--secondary, #f85e9f);
+  font-size: 23px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 4.6px;
+  text-transform: uppercase;
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--grey-scale-black, #191825);
+  font-size: 44px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}

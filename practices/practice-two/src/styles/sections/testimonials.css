@@ -1,0 +1,109 @@
+
+.testimonials {
+    display: flex;
+    width: 1184px;
+    align-items: center;
+    gap: 56px;
+    padding-top: 109px;
+}
+
+.testimonials .testimonials-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    flex: 1 0 0;
+}
+
+.testimonials .testimonials-title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.testimonials .testimonials-name {
+    text-align: center;
+}
+
+.testimonials .testimonials-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+}
+
+.testimonials .testimonials-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.testimonials .testimonials-client-detail {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.testimonials .testimonials-client-name {
+    color: #ff5722;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.testimonials .testimonials-client-job {
+    color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));;
+    font-size: 23px;
+    font-family: var(--primary-font);
+}
+
+.testimonials .testimonials-client-star {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.testimonials .testimonials-star {
+    background-image: url(../../assets/images/testimonials/star1.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.testimonials .testimonials-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 160%;
+    width: 848px;
+}
+
+.testimonials .testimonials-slide {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.testimonials .ellipse {
+    background-image: url(../../assets/images/testimonials/ellipse1.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.testimonials .ellipse-color {
+    background-image: url(../../assets/images/testimonials/Ellipse-color.svg);
+    width: 24px;
+    height: 24px;
+}

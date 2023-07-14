@@ -1,0 +1,111 @@
+
+.main-footer {
+    display: flex;
+    width: 1184px;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 64px;
+    margin-bottom: 27px;
+}
+
+.main-footer .main-footer-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+.main-footer .main-footer-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.main-footer .main-footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-footer .main-footer-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.main-footer .main-footer-logo-text {
+    color: var(--black, #191825);
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.main-footer .main-footer-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 160%;
+    width: 561px;
+}
+
+.main-footer .main-footer-social {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.main-footer .main-footer-frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.main-footer .main-footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.main-footer .main-footer-list-title {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black, #191825);
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.main-footer .main-footer-item {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.main-footer .main-footer-item:hover {
+    color: #191825;
+}
+
+.main-footer .main-footer-nav {
+    width: 264px;
+}
