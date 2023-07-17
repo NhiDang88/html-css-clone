@@ -48,3 +48,8 @@ a {
   font-weight: 700;
   line-height: 120%;
 }
+
+.sprite-icon {
+  background-image: url(../../assets/images/hero/icon-sprite.png);
+  background-repeat: no-repeat;
+}

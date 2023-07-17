@@ -1,66 +1,178 @@
-/* X-Small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
+/* Mobile */
 .header {
-    display: flex;
-    width: 398px;
-    padding: 32px 0px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding: 32px 0px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header .header-logo {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header .header-logo-img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
-.header .header-logo-text {
-    color: var(--black, #191825);
-    font-size: 24px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 900;
-    line-height: 40px;
+.header .header-brand-name {
+  color: var(--black, #191825);
+  font-size: 24px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
 }
 
 .header .header-btn {
-    display: none; 
+  display: none; 
 }
 
 .header .log-in-btn {
-    border: 1px solid #d9d9d9;
+  border: 1px solid #d9d9d9;
+	background: var(--white, #fff);
 }
 
 .header .log-in-btn:hover {
-    background: var(--primary, #5d50c6);
-    color: var(--light, #eee);
+  box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017, 
+  0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
 }
 
 .header .sign-up-btn {
-    border: none;
-    background: var(--primary, #5d50c6);
-    color: var(--light, #eee);
+  border: none;
+  background: var(--primary, #5d50c6);
+  color: var(--light, #eee);
 }
 
 .header .sign-up-btn:hover {
-    opacity: 0.8;
+  box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017, 
+  0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
 }
 
 .header .header-menu {
-    display: flex;
-  }
-
-.header .header-list {
-    display: none;
-    align-items: flex-start;
-    gap: 64px;
+  display: flex;
 }
 
+.header .header-navigation {
+  display: none;
+}
+
+.header .header-list-nav {
+  color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+  font-size: 14px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.header .header-list-nav:hover {
+  color: var(--dark, #222831);
+  transition: 0.5s linear;
+}
+
+.header .header-link-active {
+  color: var(--dark, #222831);
+  font-size: 14px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.header .header-nav-menu-btn {
+  flex-shrink: 0;
+	background-position: 0px -1px;
+	width: 48px;
+	height: 48px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header .header-logo {
+    order: 2;
+  }
+
+  .header .header-list-nav {
+    order: 1;
+  }
+
+  .header .header-btn {
+    display: flex;
+    order: 3;
+  }
+
+  .header .log-in-btn {
+    border: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* --TODO: @media (min-width: 768px) {
+
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* --TODO: @media (min-width: 992px) {
+
+} */
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header {
+    width: 1184px;
+  }
+    
+  .header .header-logo {
+    order: initial;
+  }
+    
+  .header .header-logo-img {
+    width: 40px;
+    height: 40px;
+  }
+    
+  .header .header-btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+    
+  .header .log-in-btn {
+    border: 1px solid #d9d9d9;
+  }
+    
+  .header .log-in-btn:hover {
+    background: var(--primary, #5d50c6);
+    color: var(--light, #eee);
+  }
+    
+  .header .sign-up-btn {
+    border: none;
+    background: var(--primary, #5d50c6);
+    color: var(--light, #eee);
+  }
+    
+  .header .sign-up-btn:hover {
+    box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017, 
+    0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
+  }
+    
+  .header .header-menu {
+    display: flex;
+  }
+    
+  .header .header-navigation {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+  }
+    
 .header .header-list-nav {
     color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
     font-size: 14px;
@@ -68,143 +180,28 @@ No media query for `xs` since this is the default in Bootstrap */
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-}
-
-.header .header-list-nav:hover {
+  }
+    
+  .header .header-list-nav:hover {
     color: var(--dark, #222831);
     transition: 0.5s linear;
-}
-
-.header .header-link-active {
+  }
+    
+  .header .header-link-active {
     color: var(--dark, #222831);
     font-size: 14px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-}
+  }
 
-.header .header-nav-menu-btn {
-    flex-shrink: 0;
-    border: none;
-    background-color: white;
-    cursor: pointer;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    .header .header-nav-menu-btn {
-        flex-shrink: 0;
-        border: none;
-        background-color: white;
-        cursor: pointer;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .header {
-        display: flex;
-        width: 1184px;
-        padding: 32px 0px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .header .header-logo {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-    
-    .header .header-logo-img {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .header .header-logo-text {
-        color: var(--black, #191825);
-        font-size: 24px;
-        font-family: var(--primary-font);
-        font-style: normal;
-        font-weight: 900;
-        line-height: 40px;
-    }
-    
-    .header .header-btn {
-        display: flex;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    
-    .header .log-in-btn {
-        border: 1px solid #d9d9d9;
-    }
-    
-    .header .log-in-btn:hover {
-        background: var(--primary, #5d50c6);
-        color: var(--light, #eee);
-    }
-    
-    .header .sign-up-btn {
-        border: none;
-        background: var(--primary, #5d50c6);
-        color: var(--light, #eee);
-    }
-    
-    .header .sign-up-btn:hover {
-        opacity: 0.8;
-    }
-    
-    .header .header-menu {
-        display: flex;
-      }
-    
-    .header .header-list {
-        display: flex;
-        align-items: flex-start;
-        gap: 64px;
-    }
-    
-    .header .header-list-nav {
-        color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
-        font-size: 14px;
-        font-family: var(--primary-font);
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-    }
-    
-    .header .header-list-nav:hover {
-        color: var(--dark, #222831);
-        transition: 0.5s linear;
-    }
-    
-    .header .header-link-active {
-        color: var(--dark, #222831);
-        font-size: 14px;
-        font-family: var(--primary-font);
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-    }
-
-    .header .header-nav-menu-btn {
-        display: none;
-    }
+  .header .header-nav-menu-btn {
+    display: none;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
-}
+/* --TODO: @media (min-width: 1400px) {
+  
+} */
