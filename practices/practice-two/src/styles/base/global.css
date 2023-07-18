@@ -28,12 +28,10 @@ a {
   flex-direction: column;
   align-self: stretch;
   color: var(--secondary, #f85e9f);
-  font-size: 23px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 4.6px;
   text-transform: uppercase;
 }
 
@@ -42,7 +40,6 @@ a {
   flex-direction: column;
   align-self: stretch;
   color: var(--grey-scale-black, #191825);
-  font-size: 44px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
@@ -51,5 +48,10 @@ a {
 
 .sprite-icon {
   background-image: url(../../assets/images/hero/icon-sprite.png);
+  background-repeat: no-repeat;
+}
+
+.components-sprite {
+  background-image: url(../../assets/images/components/components-sprite.png);
   background-repeat: no-repeat;
 }

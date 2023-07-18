@@ -1,12 +1,6 @@
 /* Main Button */
 .btn {
     display: flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 8px;
-    border-radius: 100px;
-    color: var(--dark, #222831);
-    font-size: 14px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
@@ -18,9 +12,17 @@
     transition: 0.5s linear;
 }
 
+.btn-primary {
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    color: var(--dark, #222831);
+    font-size: 14px;
+}
+
 /* cta button */
 .call-to-action-btn {
-    display: flex;
     padding: 32px 64px;
     align-items: center;
     gap: 16px;
@@ -31,11 +33,6 @@
     color: var(--white, #fff);
     text-align: center;
     font-size: 23px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    cursor: pointer;
 }
 
 .call-to-action-btn:hover {
@@ -44,8 +41,6 @@
 }
 
 /* Arrow button */
-.sprite
-
 .arrow-left-btn {
     width: 100px;
     height: 100px;
@@ -53,7 +48,7 @@
     border-radius: 100px;
     border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
     background-color: #fff;
-    background-image: url(../../assets/images/components/arrow-left-1.png);
+    background-position: 25px 25px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -62,7 +57,7 @@
 .arrow-left-btn:hover {
     background-color: #5d50c6;
     border: none;
-    background-image: url(../../assets/images/components/arrow-left-2.png);
+    background-position: 50px 25px;
     transition: 0.5s linear;
 }
 
@@ -73,7 +68,7 @@
     border-radius: 100px;
     border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
     background-color: #5d50c6;
-    background-image: url(../../assets/images/components/arrow-right.svg);
+    background-position: 75px 25px;
     background-repeat: no-repeat;
     background-position: center;
     border: no;

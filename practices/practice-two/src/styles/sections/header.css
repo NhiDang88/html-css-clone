@@ -132,11 +132,6 @@
     order: initial;
   }
     
-  .header .header-logo-img {
-    width: 40px;
-    height: 40px;
-  }
-    
   .header .header-btn {
     display: flex;
     align-items: flex-start;
@@ -152,48 +147,10 @@
     color: var(--light, #eee);
   }
     
-  .header .sign-up-btn {
-    border: none;
-    background: var(--primary, #5d50c6);
-    color: var(--light, #eee);
-  }
-    
-  .header .sign-up-btn:hover {
-    box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017, 
-    0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
-  }
-    
-  .header .header-menu {
-    display: flex;
-  }
-    
   .header .header-navigation {
     display: flex;
     align-items: flex-start;
     gap: 64px;
-  }
-    
-.header .header-list-nav {
-    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
-    font-size: 14px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-  }
-    
-  .header .header-list-nav:hover {
-    color: var(--dark, #222831);
-    transition: 0.5s linear;
-  }
-    
-  .header .header-link-active {
-    color: var(--dark, #222831);
-    font-size: 14px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
   }
 
   .header .header-nav-menu-btn {

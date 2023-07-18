@@ -1,12 +1,38 @@
-
-.brands {
-    margin-top: 75px;
+/* Mobile */
+.brands-list {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: row;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.brands .brands-list {
+.brands .brands-img {
+  object-fit: fill;
+  height: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .brands .brands-img {
+    object-fit: fill;
+    height: 32px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .brands {
+    margin-top: 75px;
+  }
+
+  .brands .brands-list {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     width: 1184px;
     padding: 64px 0px;
+  }
 }
