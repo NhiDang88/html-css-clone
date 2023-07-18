@@ -32,11 +32,12 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 16px;
-	align-self: stretch;
+	align-self: center;
 }
 
 .services .services-items {
 	display: flex;
+	max-width: 334px;
 	padding: 32px;
 	flex-direction: column;
 	align-items: center;
@@ -51,6 +52,7 @@
 .services .services-items:hover {
 	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
 		0px 41px 89px 0px rgba(0, 0, 0, 0.1);
+		transition: 0.25s ease;
 }
 
 .services .services-box-inside {
@@ -99,7 +101,10 @@
 	.services .services-title {
 		font-size: 40px;
 	}
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 	.services .services-box {
 		flex-direction: row;
 	}
@@ -107,13 +112,11 @@
 	.services .services-items {
 		padding: 64px;
 		gap: 64px;
-		/* flex: 1 0 0; */
 	}
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	
+	.services .services-box-title {
+		font-size: 28px;
+	}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -123,6 +126,7 @@
     height: 443px;
 		gap: 64px;
 		justify-content: inherit;
+		flex-direction: row;
   }
 
   .services .services-content {
@@ -131,6 +135,7 @@
     align-items: flex-start;
     gap: 16px;
     flex: 1 0 0;
+		width: 444px;
   }
 
 	.services .services-name {
@@ -147,6 +152,7 @@
     gap: 21px;
     flex-shrink: 0;
     overflow-x: auto;
+		flex: 1;
   }
 
   .services .services-items {
@@ -157,59 +163,31 @@
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    flex: 1 0 0;
+    flex: 1 0 315px;
     border-radius: 32px;
     border: 1px solid rgba(25, 24, 37, 0.1);
     background: #fff;
     cursor: pointer;
   }
-
-  .services .services-items:hover {
-    display: flex;
-    height: 315px;
-    width: 222px;
-    padding: 64px;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    flex: 1 0 0;
-    border-radius: 32px;
-    background: #fff;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
-      0px 41px 89px 0px rgba(0, 0, 0, 0.1);
-  }
-
-  .services .services-box-inside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    align-self: stretch;
-  }
-
-  .services .services-box-title {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    color: var(--grey-scale-black, #191825);
-    text-align: center;
-    font-size: 28px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-  }
-
-  .services .services-box-text {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.5));
-    text-align: center;
-    font-size: 18px;
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-  }
 }
+
+
+/* .services {
+	display: flex;
+}
+
+.services .services-content {
+	width: 444px;
+}
+
+.services-box {
+	flex: 1;
+	display: flex;
+	gap: 21px;
+	overflow-x: scroll;
+}
+
+.services-items {
+	flex: 1 0 350px;
+} 
+*/

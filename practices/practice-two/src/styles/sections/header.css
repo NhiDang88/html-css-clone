@@ -124,9 +124,6 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .header {
-    width: 1184px;
-  }
     
   .header .header-logo {
     order: initial;
