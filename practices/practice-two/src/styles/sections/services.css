@@ -156,6 +156,10 @@
 		flex: 2;
   }
 
+	.services-box::-webkit-scrollbar {
+    display: none;
+  }
+
   .services .services-items {
     display: flex;
     height: 315px;

@@ -1,81 +1,76 @@
 /* Main Button */
 .btn {
-    display: flex;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    cursor: pointer;
+  display: flex;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  cursor: pointer;
 }
 
 .btn:hover {
-    transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 
 .btn-primary {
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 8px;
-    border-radius: 100px;
-    color: var(--dark, #222831);
-    font-size: 14px;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 100px;
+  color: var(--dark, #222831);
+  font-size: 14px;
 }
 
 /* cta button */
 .call-to-action-btn {
-    padding: 32px 64px;
-    align-items: center;
-    gap: 16px;
-    align-self: stretch;
-    border-radius: 32px;
-    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
-    background: var(--primary, #5d50c6);
-    color: var(--white, #fff);
-    text-align: center;
-    font-size: 23px;
+  padding: 32px 64px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 32px;
+  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
+  background: var(--primary, #5d50c6);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 23px;
 }
 
 .call-to-action-btn:hover {
-    transition: 0.5s linear;
-    opacity: 0.8;
+  transition: 0.5s linear;
+  opacity: 0.8;
 }
 
 /* Arrow button */
+.arrow-btn {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
 .arrow-left-btn {
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    border-radius: 100px;
-    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
-    background-color: #fff;
-    background-position: 25px 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
+  background-color: #fff;
+  background-image: url(../../assets/images/components/arrow-left-1.png);
 }
 
 .arrow-left-btn:hover {
-    background-color: #5d50c6;
-    border: none;
-    background-position: 50px 25px;
-    transition: 0.5s linear;
+  background-color: #5d50c6;
+  border: none;
+  background-image: url(../../assets/images/components/arrow-left-2.png);
+  transition: 0.5s linear;
 }
 
 .arrow-right-btn {
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    border-radius: 100px;
-    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.10));
-    background-color: #5d50c6;
-    background-position: 75px 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: no;
-    cursor: pointer;
+  background-color: #5d50c6;
+  background-image: url(../../assets/images/components/arrow-right-2.png);
+  border: no;
 }
 
 .arrow-right-btn:hover {
-    transition: 0.5s linear;
-    opacity: 0.8;
+  transition: 0.5s linear;
+  opacity: 0.8;
 }
