@@ -22,22 +22,39 @@
 }
 
 /* cta button */
+/* Mobile */
 .call-to-action-btn {
-  padding: 32px 64px;
+  display: flex;
+  padding: 24px 64px;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   align-self: stretch;
-  border-radius: 32px;
-  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
+  border-radius: 16px;
   background: var(--primary, #5d50c6);
   color: var(--white, #fff);
-  text-align: center;
-  font-size: 23px;
+  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
 }
 
 .call-to-action-btn:hover {
-  transition: 0.5s linear;
+  transition: 0.2s linear;
   opacity: 0.8;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .call-to-action-btn {
+    padding: 32px 64px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 32px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
+    background: var(--primary, #5d50c6);
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 23px;
+  }
 }
 
 /* Arrow button */

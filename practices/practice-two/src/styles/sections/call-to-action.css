@@ -1,77 +1,142 @@
-
+/* Mobile */
 .call-to-action {
-    display: flex;
-    width: 1056px;
-    padding: 128px 64px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 64px;
-    margin: 177px 0px 64px;
-    border-radius: 32px;
-    background: rgba(250, 205, 73, 0.08);
+  display: flex;
+  padding: 64px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  border-radius: 32px;
+  background: rgba(250, 205, 73, 0.08);
 }
 
 .call-to-action .call-to-action-frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 64px;
-    align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  align-self: stretch;
 }
 
 .call-to-action .call-to-action-title-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
 }
 
 .call-to-action .call-to-action-name {
-    text-align: center;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3.2px;
 }
 
 .call-to-action .call-to-action-title {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    color: var(--grey-scale-black, #191825);
-    text-align: center;
-    font-family: var(--primary-font);
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    width: 1056px;
+  font-size: 32px;
+  text-align: center;
 }
 
 .call-to-action .call-to-action-send {
-    display: flex;
-    align-items: flex-start;
-    gap: 64px;
-    align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
 }
 
 .call-to-action .call-to-action-textbox {
-    display: flex;
-    padding: 32px;
-    align-items: center;
-    gap: 16px;
-    flex: 1 0 0;
-    align-self: stretch;
-    border-radius: 32px;
-    background: var(--white, #fff);
+  display: flex;
+  padding: 24px 32px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--white, #fff);
+}
+
+.call-to-action .call-to-action-img {
+  width: 24px;
+  height: 24px;
+  object-fit: fill;
 }
 
 .call-to-action .call-to-action-text {
-    color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
-    text-align: center;
-    font-family: var(--primary-font);
+  color: var(--grey-scale-black-75, rgba(25, 24, 37, 0.75));
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border: none;
+  outline: none;
+  text-align: start;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .call-to-action {
+    display: flex;
+    padding: 128px 64px;
+    flex-direction: row;
+  }
+
+  .call-to-action .call-to-action-name {
     font-size: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    border: none;
-    outline: none;
-    text-align: start;
+    letter-spacing: 4.6px;
+  }
+
+  .call-to-action .call-to-action-title {
+    font-size: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .call-to-action .call-to-action-send {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .call-to-action .call-to-action-textbox {
+    padding: 32px;
+    flex: 1 0 0;
+    border-radius: 32px;
+  }
+
+  .call-to-action .call-to-action-img {
+    width: 32px;
+    height: 32px;
+  }
+
+	.call-to-action .call-to-action-text {
+		font-size: 16px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.call-to-action .call-to-action-text {
+		font-size: 23px;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .call-to-action {
+    width: 1056px;
+    margin: 177px 0px 64px;
+  }
+
+  .call-to-action .call-to-action-title {
+    font-size: 55px;
+    width: 1056px;
+  }
+
+  .call-to-action .call-to-action-send {
+    gap: 64px;
+  }
 }

@@ -25,15 +25,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-
-.travel-point .travel-point-title-frame {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
   align-self: stretch;
 }
 
@@ -41,21 +32,18 @@
   font-size: 16px;
   letter-spacing: 3.2px;
   text-align: center;
+  padding-bottom: 16px;
 }
 
 .travel-point .travel-point-title {
   font-size: 32px;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .travel-point .travel-point-text {
   align-self: stretch;
-  color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.5));
   font-size: 16px;
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
   text-align: center;
 }
 
@@ -85,11 +73,11 @@
   border-radius: 32px;
   border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
   background: var(--white, #fff);
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .travel-point .travel-point-item:hover {
-  transition: 0.5s;
+  transition: 0.2s;
   box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017,
     0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
 }
@@ -114,11 +102,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
-	.travel-point .travel-point-img {
-		object-fit: fill;
-		width: 65%;
-	}
+  .travel-point .travel-point-img {
+    width: 65%;
+  }
 
   .travel-point .travel-point-name {
     font-size: 23px;
@@ -158,19 +144,17 @@
   }
 
   .travel-point .travel-point-name {
-    font-size: 23px;
-    letter-spacing: 4.6px;
-		text-align: inherit;
+    text-align: inherit;
   }
 
   .travel-point .travel-point-title {
     font-size: 44px;
-		text-align: inherit;
+    text-align: inherit;
   }
 
-	.travel-point .travel-point-text {
-		text-align: inherit;
-	}
+  .travel-point .travel-point-text {
+    text-align: inherit;
+  }
 
   .travel-point .travel-point-img {
     width: 522px;
