@@ -41,36 +41,52 @@
 }
 
 /* Arrow button */
+/* Mobile */
 .arrow-btn {
-  width: 100px;
-  height: 100px;
-  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
   border-radius: 100px;
-  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
-  background-repeat: no-repeat;
-  background-position: center;
+  border: none;
   cursor: pointer;
 }
 
-.arrow-left-btn {
-  background-color: #fff;
-  background-image: url(../../assets/images/components/arrow-left-1.png);
+.arrow-btn:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017,
+    0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
 }
 
-.arrow-left-btn:hover {
-  background-color: #5d50c6;
-  border: none;
-  background-image: url(../../assets/images/components/arrow-left-2.png);
-  transition: 0.5s linear;
+.arrow-left-btn {
+  background-position: -333px -1px;
+  border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
 }
 
 .arrow-right-btn {
-  background-color: #5d50c6;
-  background-image: url(../../assets/images/components/arrow-right-2.png);
-  border: no;
+  background-position: -442px -9px;
 }
 
-.arrow-right-btn:hover {
-  transition: 0.5s linear;
-  opacity: 0.8;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .arrow-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .arrow-btn:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 #0000001a, 0 5px 11px #0000001a, 0 20px 20px #00000017,
+      0 45px 27px #0000000d, 0 81px 32px #00000003, 0 126px 35px #0000;
+  }
+
+  .arrow-left-btn {
+    background-position: -41px -1px;
+    border: 1px solid var(--grey-scale-black-10, rgba(25, 24, 37, 0.1));
+  }
+
+  .arrow-right-btn {
+    background-position: -187px -8px;
+  }
 }
